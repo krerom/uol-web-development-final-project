@@ -1,0 +1,31 @@
+<!-- 
+    The engine intentionally exposes a limited set of render targets
+    This constraint reduces complexity, avoids parsing, and guarantees layout consistency across pages
+ -->
+<section id="navigation"></section>
+
+<section id="content">
+    <t-space height="2rem"></t-space>
+    <t-headline size="36px">{{heading}}</t-headline>
+    <t-space height="2rem"></t-space>
+
+    {{foreach blocks}}
+        <t-headline size="24px">{{title}}</t-headline>
+        <t-space height="1rem"></t-space>
+
+        <t-dual-box>
+            {{image}}
+            <t-space width="1rem"></t-space>
+            <t-text width="50%">{{text}}</t-text>
+        </t-dual-box>
+        
+        <t-space height="1rem"></t-space>
+        {{links}}
+        <t-space height="3rem"></t-space>
+    {{endfor}}
+
+</section>
+
+<section id="comments"></section>
+
+<section id="footer"></section>

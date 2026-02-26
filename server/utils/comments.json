@@ -1,0 +1,39 @@
+{
+  "early": [
+    {
+      "username": "roman",
+      "timestamp": "2026-02-17T12:41:32.482Z",
+      "text": "First comment!"
+    }
+  ],
+  "mid": [
+    {
+      "username": "roman",
+      "timestamp": "2026-02-17T13:03:35.712Z",
+      "text": "New Comment ",
+      "email": ""
+    }
+  ],
+  "home": [
+    {
+      "username": "Roman",
+      "timestamp": "2026-02-17T14:43:05.181Z",
+      "text": "The scenery is nice but the temperatures are too low now - I will wait for summer",
+      "email": ""
+    },
+    {
+      "username": "Steve",
+      "timestamp": "2026-02-17T14:44:08.978Z",
+      "text": "Good idea Roman! Although the weather is nice for skiing now!",
+      "email": ""
+    }
+  ],
+  "present": [
+    {
+      "username": "Jessica",
+      "timestamp": "2026-02-17T14:45:45.823Z",
+      "text": "Wow, almost all households have access to the internet!",
+      "email": ""
+    }
+  ]
+}

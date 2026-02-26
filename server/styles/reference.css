@@ -1,0 +1,41 @@
+.references{
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 2rem 2rem 2rem;
+    min-height: 100vh;
+}
+
+.reference {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.reference a {
+    color: #1a5fb4;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.reference a:hover,
+.reference a:focus {
+    text-decoration: underline;
+}
+
+.references {
+    counter-reset: ref;
+}
+
+.reference::before {
+    counter-increment: ref;
+    content: counter(ref) ". ";
+    font-weight: 600;
+    color: #555;
+}
+
+@media (max-width: 700px) {
+    .references{
+        width: 90%;
+        margin: 6rem auto 1rem auto;
+    }
+}

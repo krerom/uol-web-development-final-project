@@ -1,0 +1,248 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --obsidian: rgba(18, 18, 25, 1);
+    --slate: rgba(30, 41, 59, 0.95);
+    --lime: rgba(100, 255, 218, 0.9);
+    --cyan: rgba(94, 234, 212, 0.85);
+    --white: rgba(240, 245, 255, 0.9);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: "Outfit", sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    background-color: var(--white);
+}
+
+#navigation {
+    display: flex;
+    position: fixed;
+    background-color: var(--slate);
+    width: 100%;
+    z-index: 100;
+}
+
+#navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+#navigation ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#navigation .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+#navigation .menu-toggle img {
+    width: 28px;
+    height: 28px;
+    color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 4rem 0 2rem 2rem;
+    min-height: 100vh;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 0 0;
+    padding: 6rem 2rem 1rem 2rem;
+    background-color: var(--slate);
+    color: var(--white);
+}
+
+#footer .logoLinkWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer .logoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#footer .logoContainer img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--obsidian);
+    object-fit: cover;
+    margin: auto;
+}
+
+#footer .logoContainer span {
+    font-size: 18px;
+}
+
+#footer .linksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#footer .linksContainer a {
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--white);
+}
+
+#footer .footNoteCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto 0 auto;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+.sliderTitle{
+    display: flex;
+    width: fit-content;
+    margin: 3rem 0 2rem 2rem;
+}
+
+.sliderTitle h1{}
+
+.slider-viewport {
+    display: flex;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    min-height: 300px;
+}
+
+.slider-track {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 100%;
+    min-height: 300px;
+}
+.slider-track > * {
+    aspect-ratio: 16 / 9;
+    width: calc(100% / 3); /* display = 3 */
+    overflow: hidden;
+}
+
+.slider-track img {
+    display: block;
+    width: fit-content;
+    max-width: 500px;
+    height: auto;
+    max-height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.slider-btn.prev {
+    left: 5px;
+}
+
+.slider-btn.next {
+    right: 5px;
+}
+
+
+@media (max-width: 700px) {
+
+    #navigation nav {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navigation .menu-toggle {
+        display: flex;
+    }
+
+    #navigation ul {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    #navigation ul.open {
+        display: flex;
+    }
+
+    #navigation ul li a {
+        font-size: 20px;
+    }
+
+    #content {
+        width: 90%;
+        margin: 4rem auto;
+    }
+
+    #content .block {
+        flex-direction: column;
+    }
+
+    #content article {
+        width: 100%;
+    }
+}

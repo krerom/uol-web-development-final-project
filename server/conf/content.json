@@ -1,0 +1,168 @@
+{
+    "home": {
+        "title": "Internet History Austria",
+        "sliders": [
+            {
+                "id": "slider1",
+                "title":"Image Slider - Scenery Austria",
+                "display": 3,
+                "images": [
+                    "austriaFlag.png",
+                    "austria1.jpg",
+                    "austria2.jpg",
+                    "austria3.jpg",
+                    "austria4.jpg",
+                    "austria5.jpg",
+                    "austria6.jpg"                ],
+                "altTexts": [
+                    "National Flag of Austria",
+                    "Image of Austrias Scenery",
+                    "Image of Austrias Scenery",
+                    "Image of Austrias Scenery",
+                    "Image of Austrias Scenery",
+                    "Image of Austrias Scenery",
+                    "Image of Austrias Scenery"
+                ]
+            }
+        ]
+    },
+    "reference": {
+        "title": "Sources"
+    },
+    "early": {
+        "title": "1999 – 2010",
+        "heading": "Early Foundations and the Turn of the Millennium",
+        "blocks": [
+            {
+                "image": "",
+                "imageDescription": "",
+                "title": "Steadily Growing User-Base",
+                "text": "Since 1999, Austria's internet landscape has evolved rapidly. In 1999, internet subscribers totaled only 51,000, with penetration around 23% of the population. By 2000, penetration reached approximately 33.7%, growing steadily through the early 2000s as commercial ISPs expanded. Major players like Telekom Austria (now A1 Telekom Austria) drove early broadband rollout, transitioning from dial-up to faster fixed-line services.",
+                "links": [
+                    {
+                        "text": "(SWOT Analysis, 2025; GLOBAL ECONOMY, 2023; FRED, 2025)",
+                        "url": "#reference"
+                    }
+                ],
+                "classNames": []
+            },
+            {
+                "image": "uni.png",
+                "title": "ACOnet And The Foundation For Modern Internet",
+                "text": "Academic networks provided foundational infrastructure. ACOnet, Austria's national research and education network, was established in 1990 with the first IP-based leased line connecting Vienna University to CERN in Geneva, laying groundwork for the internet in Austria. By the late 1990s and into the 2000s, ACOnet influenced commercial growth by interconnecting universities and supporting early IP connectivity.",
+                "links": [
+                    {
+                        "text": "(ACO NET, 2024; ACO NET 2020)",
+                        "url": "#reference"
+                    }
+                ],
+                "classNames": []
+            },
+            {
+                "image": "",
+                "imageDescription": "",
+                "title": "From Broadband To Mobile Internet",
+                "text": "The 2000s saw accelerated broadband adoption. Fixed broadband household penetration was around 10-15% in the early 2000s, rising significantly with investments in fiber and DSL. Telekom Austria launched mobile technologies like GPRS (around 2000) and UMTS (2003), enabling early mobile internet. By 2010, 4G LTE was introduced, boosting mobile broadband speeds.",
+                "links": [
+                    {
+                        "text": "(A1 Group, 2023)",
+                        "url": "#reference"
+                    }
+                ],
+                "classNames": []
+            },
+            {
+                "image": "wifi.png",
+                "imageDescription": "",
+                "title": "Public WiFi Emerging",
+                "text": "Public WiFi emerged in urban centers during the 2000s and 2010s. In Vienna, the city established free public WLAN hotspots at numerous locations, including public places, train stations, and the airport, contributing to widespread access in public spaces. By the 2010s, initiatives expanded to hundreds of hotspots, supporting smart city goals.",
+                "links": [
+                    {
+                        "text": "(VIENNA, no date; Visiting Vienna, 2026)",
+                        "url": "#reference"
+                    }
+                ],
+                "classNames": []
+            }
+        ]
+    },
+    "mid": {
+        "title": "2011 – 2020",
+        "heading": "Mobile Internet Boom and Widespread Adoption",
+        "blocks": [
+            {
+                "image": "peopleConnection.png",
+                "imageDescription": "",
+                "title": "Rise of Mobile Internet",
+                "text": "From 2011 onward, mobile internet dominated growth. 5G trials and launches began around 2019-2020, with initial deployments in rural and urban areas. By 2022, 5G covered 77% of populated areas, exceeding the EU average. Fixed broadband subscribers reached 2.682 million by 2023, with penetration at 29.37 per 100 people.",
+                "links": [
+                    {
+                        "text": "(Schoenherr, 2019; WIKIPEDIA, 2025;  GLOBAL ECONOMY, 2023; YCHARTS, 2023)",
+                        "url": "#reference"
+                    }
+                ],
+                "classNames": []
+            },
+            {
+                "image": "",
+                "imageDescription": "",
+                "title": "Speeding things Up - 5G Adoption Emerging",
+                "text": "Government policy has been pivotal in recent years. Austria's Broadband Strategy 2030, adopted in August 2019, aims for nationwide symmetric gigabit connections (fixed and mobile) by 2030, addressing market failures in rural areas through funding and partnerships. In 2021, €1.4 billion was allocated for fiber deployment in underserved regions. By 2024, A1 Telekom Austria's fiber network exceeded 76,500 km, with strong 5G expansion.",
+                "links": [
+                    {
+                        "text": "(EUROPEAN COMMISSION, 2025; DIG Watch, 2019; Porters, 2025)",
+                        "url": "#reference"
+                    }
+                ],
+                "classNames": []
+            }
+        ]
+    },
+    "present": {
+        "title": "2021 - Present",
+        "heading": "Gigabit Society and Future-Proof Infrastructure",
+        "blocks": [
+            {
+                "image": "browsers.png",
+                "imageDescription": "",
+                "title": "Interconnecting the Country",
+                "text": "Internet penetration has approached saturation: around 95% in 2023-2024 (e.g., 95.3% in 2023, 94.9% in 2024), with household access at 95%+. This reflects successful integration of fixed, mobile, and public infrastructure, positioning Austria as a leader in European digital connectivity while closing rural-urban gaps.",
+                "links": [
+                    {
+                        "text": "(WORLD BANK GROUP, 2024; FRED, 2025; TRADING ECONOMICS 2026)",
+                        "url": "#reference"
+                    }
+                ],
+                "classNames": []
+            }
+        ]
+    },
+    "footer": {
+        "logo": "austriaFlag.png",
+        "slogan": "Internet Austria",
+        "links": [
+            {
+                "text": "Home",
+                "url": "/"
+            },
+            {
+                "text": "1999 - 2010",
+                "url": "#early"
+            },
+            {
+                "text": "2011 - 2020",
+                "url": "#mid"
+            },
+            {
+                "text": "2021 - Present",
+                "url": "#present"
+            },
+            {
+                "text": "Reference",
+                "url": "#reference"
+            }
+        ],
+        "footnote": "Final Project Web Development | Student number: 250464836",
+        "classNames": []
+    }
+}

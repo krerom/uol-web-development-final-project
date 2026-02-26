@@ -1,0 +1,29 @@
+{
+    "home": {
+        "name": "Home",
+        "destination": "/",
+        "html": "home.html",
+        "css": "home.css"
+    },
+    "early": {
+        "name": "1999 - 2010",
+        "destination": "#early",
+        "html": "template.html"
+    },
+    "mid":{
+        "name": "2011 - 2020",
+        "destination": "#mid",
+        "html": "template.html"
+    },
+    "present":{
+        "name": "2021 - Present",
+        "destination": "#present",
+        "html": "template.html"
+    },
+    "reference":{
+        "name": "Reference",
+        "destination": "#reference",
+        "html": "reference.html",
+        "css": "reference.css"
+    }
+}

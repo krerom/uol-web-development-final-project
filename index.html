@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- page specific styles will be attached automatically,
+            while template style.css will be attached here -->
+        <link rel="stylesheet" href="utils/styles/styles.css">
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="assets/images/austriaFlag.png" />
+
+        <!-- title will be set automatically for each page
+            according to pages.json -->
+        <title>loading ...</title>
+
+        <!-- here I am importing google fonts 
+            this could be done dynamically upon user request -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mada:wght@200..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+        
+        <!-- without this, media queries do not work -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- The plan is to render every page here
+            similar to how REACT works -->
+        <div id="main"></div>
+    </body>
+
+    <!-- these scripts are part of the template engine and shall be specified here
+        instead of being fetched dynamically -->
+    <script src="utils/scripts/Components/components.js"></script>
+    <script src="utils/scripts/main.js"></script>
+</html>
