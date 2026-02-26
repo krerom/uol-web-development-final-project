@@ -1,4 +1,4 @@
-# Web Development Final Project — Template Engine & SPA
+# University of London - Web Development Final Project — Template Engine & SPA
 
 A single-page application about **Internet History Austria**, built around a small **client-side template engine**. The app fetches HTML templates and JSON content from a Node/Express backend, then renders them into fixed layout sections using custom Web Components and a minimal template syntax.
 
